@@ -8,7 +8,7 @@
 
 The solutions are organized by difficulty level:
 
-/Leetcode-Solutions 
+Leetcode-Solutions 
 
 ├── easy/ 
 
