@@ -1,7 +1,5 @@
 # LeetCode Solutions
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 📚 A collection of my LeetCode solutions implemented primarily in C++. This repository serves as both:
 - A personal record of my problem-solving journey
 - A potential resource for others preparing for coding interviews
