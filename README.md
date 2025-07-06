@@ -7,9 +7,13 @@
 ## Repository Structure
 
 The solutions are organized by difficulty level:
+
 /Leetcode-Solutions 
+
 ├── easy/ 
+
 ├── medium/ 
+
 └── hard/
 
 
