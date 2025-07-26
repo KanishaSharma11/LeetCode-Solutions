@@ -8,8 +8,13 @@ class Solution{
     int myAtoi(string s){
       int i = 0;
       int n = s.length();
+      int sign = 1;
       while(i < n && isspace(s[i])){
         i++;
+      }
+      if(i < n && (s[i] == '+' || s[i] == '-' )){
+            sign = (s[i] == '-') ? -1 : 1;
+            i++;
       }
       long long result = 0;
       while(i < n && isdigit(s[i])){
@@ -25,6 +30,6 @@ class Solution{
         i++;
       }
 
-      return static_cast<int>(sign * result);
+      return result * sign;
     }
 };
